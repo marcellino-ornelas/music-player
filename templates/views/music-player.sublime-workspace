@@ -1,0 +1,316 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"side",
+				"side-nav-button"
+			],
+			[
+				"al",
+				"align-vertical"
+			],
+			[
+				"inle",
+				"inline-block"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"strect",
+				"stretch"
+			],
+			[
+				"border-ima",
+				"border-image-slice"
+			],
+			[
+				"border",
+				"border-image"
+			],
+			[
+				"trans",
+				"transparent"
+			],
+			[
+				"borde",
+				"border-image"
+			],
+			[
+				"gra",
+				"gravity-nav"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"node",
+				"node_modules_sec"
+			],
+			[
+				"pat",
+				"PATH_TO_SAVE"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
+				"flex",
+				"flex-basis"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"the",
+				"the_permalink"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"colum",
+				"column-rule"
+			],
+			[
+				"back",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/student/Desktop/music-player",
+		"/Users/student/Desktop/music-player/templates/layouts",
+		"/Users/student/Desktop/music-player/templates/views"
+	],
+	"file_history":
+	[
+		"/Users/student/Desktop/music-player/public/css/main.less",
+		"/Users/student/Desktop/music-player/templates/views/index.jade",
+		"/Users/student/Desktop/music-player/templates/layouts/default.jade",
+		"/Users/student/Desktop/music-player/routes/middleware.js",
+		"/Users/student/Desktop/start-up/make_easy_node/pages/data.js",
+		"/Users/student/Desktop/start-up/package.json",
+		"/Users/student/Desktop/start-up/readme.md",
+		"/Users/student/Desktop/a.out",
+		"/Users/student/Desktop/start-up/questionList.js",
+		"/Users/student/Desktop/start-up/index.js",
+		"/Users/student/Desktop/start-up/make_easy_node/pages/server.js",
+		"/Users/student/Desktop/trail/routes/index.js",
+		"/Users/student/Desktop/trail/server.js",
+		"/Users/student/Desktop/trail/routes.js",
+		"/Users/student/Desktop/trail/templates/layouts/default.jade",
+		"/Users/student/Desktop/start-up/.gitignore",
+		"/Users/student/Applications/mampstack-5.6.27-0/apache2/htdocs/lino/wp-content/themes/cool/style.css",
+		"/Users/student/Library/Application Support/Sublime Text 3/Packages/User/LESS.sublime-settings",
+		"/Users/student/Desktop/masonry-master/masonry.js",
+		"/Users/student/Desktop/node_modules/jquery-ui/README.md",
+		"/Users/student/Applications/mampstack-5.6.27-0/apache2/htdocs/lino/wp-content/themes/twentyfifteen/css/ie.css",
+		"/Users/student/Applications/mampstack-5.6.27-0/apache2/htdocs/lino/wp-content/themes/twentyfifteen/css/editor-style.css",
+		"/Users/student/Applications/mampstack-5.6.27-0/apache2/htdocs/lino/wp-content/themes/twentyfifteen/css/ie7.css",
+		"/Users/student/Library/Application Support/Sublime Text 3/Cache/Handlebars.tmbundle-master/Syntaxes/Handlebars.tmLanguage.cache",
+		"/Users/student/zsh_setup/dotzshrc",
+		"/Users/student/Applications/mampstack-5.6.27-0/apache2/htdocs/lino/wp-config.php",
+		"/Users/student/Applications/mampstack-5.6.27-0/apache2/conf/httpd.conf",
+		"/Users/student/Applications/mampstack-5.6.27-0/apache2/conf/bitnami/bitnami.conf",
+		"/Users/student/Desktop/music-player/server.js",
+		"/Users/student/Desktop/music-player/package.json"
+	],
+	"find":
+	{
+		"height": 29.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"repeat",
+			"500px",
+			"border.png",
+			" ;",
+			" =",
+			"answers",
+			"folder_name",
+			"build_server",
+			"answer",
+			"href",
+			"50em",
+			"50",
+			"50%",
+			"0",
+			"auto",
+			"50",
+			"auto",
+			"50%",
+			"500px",
+			"50%",
+			"display",
+			"/*\n * user display\n*/\n\n.user-display{\n\n}",
+			"h3",
+			"0",
+			"section",
+			"info",
+			"hidden-text",
+			"color"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "music-player.sublime-project",
+	"replace":
+	{
+		"height": 54.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 251.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

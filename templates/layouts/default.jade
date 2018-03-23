@@ -1,0 +1,85 @@
+include ../mixins/search
+
+doctype html
+html
+
+	//- HTML HEADER
+	head
+		meta(charset="utf-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+
+		title= title || "Gravity"
+		link(rel="shortcut icon", href="/favicon.ico", type="image/x-icon")
+
+		//- CSS
+
+		//- add all stylesheets needed for page
+		each style in apply_scripts.css
+			link(href=style, rel="stylesheet", type="text/css" )
+
+		//- Include template-specific stylesheets by extending the css block
+		block css
+		
+			
+		//- Add any other template-specific HEAD tags by extending the head block
+		block head
+
+	//- HTML BODY
+	body(mobile-nav='false')
+		aside
+			nav
+				.gravity-nav-side
+					- var navList = locals.nav || ['Listen', 'Features', 'Blog', 'Contact', 'Download' ];
+					ul
+						each navItem in navList
+							li.clickable(class={active: locals.page === navItem }): a(href='#')=navItem
+					//- +search
+		#main(mobile-nav='false')
+			header
+				nav.fx-concurrent.gravity-container
+					.gravity-logo.align-vertical
+						img(src='images/logograv.png')
+						h1.clickable: a(href='/') Gravity
+					.side-nav-button: div.align-vertical
+						button#mobileNavBars.clickable(type='button'): i.fa.fa-bars
+					.gravity-nav.no-mobile
+						- var navList = locals.nav || ['Listen', 'Features', 'Blog', 'Contact', 'Download' ];
+						ul.align-vertical
+							each navItem in navList
+								li.clickable: a(href='#', class={active: locals.page === navItem } )=navItem
+							//- li: a(href="#"): i.fa.fa-instagram
+							//- li: a(href="#"): i.fa.fa-twitter
+							//- li: a(href="#"): i.fa.fa-facebook
+				block header
+								
+			//- BODY
+			#body
+				
+				block intro
+
+				block body
+
+
+			//- FOOTER
+			#footer
+				.container.fx-concurrent.fx-center
+					section
+						//- .download
+							button#download.btn(type='button') Download Gravity
+						h2 Download Gravity
+
+						ul.download-users.fx-concurrent
+							li: a(target='_blank', href='macappstore://itunes.apple.com'): i.fa.fa-apple
+							li: a(target='_blank', href='#windows'): i.fa.fa-tablet
+							li: a(target='_blank', href='http://play.google.com/store/apps/details?id=gravity'): i.fa.fa-android
+				footer
+					p Gravity All Rights Reserved Terms &#38; Conditions Here
+
+
+		//- JAVASCRIPT
+		//- Include template-specific javascript files by extending the js block
+		block js
+
+		each script in apply_scripts.js
+			script(type="text/javascript", src=script)

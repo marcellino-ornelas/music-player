@@ -1,0 +1,24 @@
+include ./big-tab
+
+mixin sliderItems(albums, artist_name)
+	each album, name in albums
+		if name !== 'first' &&  name !== 'last'
+			+sliderItem(album, artist_name)
+
+
+mixin sliderItem(album, artist_name)
+	.slider-item.toggle-effect.gravity-slider-item(
+		data-artist=artist_name
+		data-album-name= album.albumName || false
+	)
+		-	var picture_path = album.picture ? (album.path + '/' + album.picture) : 'images/album_cover_default.png';
+
+		img.slider-item-image(src= picture_path)
+		+big-tab('Info')
+			p artist: #{artist_name}
+			if album.albumName
+				p album: #{album.albumName} 
+		.toggle-item.gravity-play-button.align-vertical
+			.circle.align-vertical
+				.play.align-vertical
+					i.fa.fa-play

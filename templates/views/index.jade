@@ -1,0 +1,48 @@
+include ../mixins/albumSliderItem
+
+extends ../layouts/default
+
+block header
+	.gravity-container
+		section.gravity-intro.no-mobile
+			-
+				var caption = (locals.missionStatment || ["CLICK","DOWNLOAD","LISTEN"]).map(function(word){
+						return "<span>" + word + "</span>"
+					});
+
+			h2!= caption.join('-')
+			p= locals.description || "Gravity is your friendly music app"
+
+		.gravity-container
+			.gravity-search.fx-concurrent.fx-center
+				+search
+
+			.gravity-player.fx-concurrent.fx-center
+				div.music-player
+					#gravity-equalizer
+						//- for now untill equalizer can work
+						//- img(src='images/barz.png')
+						canvas#visualizer(style='width:100%;height:200px;')
+					#gravity-progressbar
+					#gravity-controls
+						- var controls = ['volume-down','volume-off','volume-up','random','backward','play','pause','forward'];
+
+						ul.controls.fx-concurrent
+							each control in controls
+								li.clickable(id=control): i.fa(class="fa-#{control}")
+							li#song-title none
+							li#time-remaining 0:00
+			//- audio(controls=true)
+
+
+block body
+	.gravity-container
+		#gravity-album-slider.slider-bar.fx-concurrent
+			//- if locals.files
+				//-each file in locals.files
+					//-if file.albums
+						//-+sliderItems(file.albums, file.artist)
+					//-else if file.songs
+						//-+sliderItem(file, file.artist)
+
+

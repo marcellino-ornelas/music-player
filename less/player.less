@@ -1,0 +1,64 @@
+/*
+ * GRAVITY PLAYER
+ * 
+ * This is for the music player thats located on 
+ * gravity.com
+*/
+
+/*
+ * Gravity Player variables
+*/
+
+
+/*
+ * Music Player
+ * className: .music-player
+*/
+
+.music-player{
+	width: 40%;
+
+	li{
+		.fx-item(1;1;auto);
+	}
+
+	.controls{
+		padding:5px 0px;
+		text-align: center;
+	}
+
+	/* deactivate unused controls */
+	#volume-down,
+	#volume-off,
+	#pause,
+	.deactivate{
+		display:none;
+	}
+
+	#song-title{
+		width: 100px;
+		overflow-x: scroll;
+		white-space: nowrap;
+	}
+	
+}
+
+
+/*
+ * Equalizer
+ * id: #gravity-equalizer
+ * className: ---
+*/
+
+#gravity-equalizer{
+	text-align: center;
+	img {
+		display: block;
+		height:250px;
+		width: 450px;
+		margin:auto;
+		max-width: 100%;
+	}
+}
+
+
